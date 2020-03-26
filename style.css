@@ -97,3 +97,10 @@ h3{
   #form_email{
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
+
+  .QR{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+  }
