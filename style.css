@@ -63,15 +63,11 @@ h3{
 	margin: 0 auto;
  }
 
- .like_button{
-	margin: 0 auto;
- }
-
  section a{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 30%;
+	width: 10%;
  }
 
  .row {
@@ -81,4 +77,23 @@ h3{
   .column {
 	flex: 33.33%;
 	padding: 5px;
+  }
+
+  #about_me{
+		width: 600px;
+		margin: auto;
+		border: 3px solid#92aab1;
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .question{
+		direction: rtl;
+		width: 600px;
+		margin: auto;
+		border: 3px solid#92aab1;
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  #form_email{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
