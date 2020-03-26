@@ -1,7 +1,84 @@
-#menu
-{
-	position: fixed;
-	width: 100%;
-	height: 35px;
-	background: blue;
+body {
+	margin: 0;
+	background:#afc2c7;
 }
+
+#menu{
+	width: 100%;
+	position: fixed;
+	top:0;
+	margin: 0 auto;
+	background: #153138	;
+}
+
+.logo{
+	float: left;
+}
+
+nav{
+	float: right;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 25px;
+}
+
+nav a{
+	color: rgb(196, 232, 248);
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+nav a:hover{
+	color: rgb(59, 180, 130);
+}
+
+section{
+	padding-top: 150px;
+}
+
+h3{
+	font-size: 24px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-align: center;
+	border-bottom: 1px dashed #153138; 
+	width: 50%; 
+	margin: auto; 
+	margin-top: 5%; 
+	margin-bottom: 5%;
+}
+
+.youtube {
+	display: block;
+	margin: 0 auto;
+ }
+
+ .like_button{
+	margin: 0 auto;
+ }
+
+ section a{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+ }
+
+ .row {
+	display: flex;
+  }
+  
+  .column {
+	flex: 33.33%;
+	padding: 5px;
+  }

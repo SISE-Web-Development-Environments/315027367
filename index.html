@@ -4,175 +4,103 @@
 <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-<div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
+  <header>
+    <div id="menu">
+  <img class="logo" src="logo2.png">
+  <nav>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#photos">My Photos</a></li>
+      <li><a href="#playlist">My Playlist</a></li>
+      <li><a href="#like">Like</a></li>
+      <li><a href="#qrcoder">QR code</a></li>
+      <li><a href="#q&a">Q&A</a></li>
+      <li><a href="#contact">Contact Me</a></li>
+    </ul>
+  </nav>
+  
+
 </div>
+  </header>
+
 		  
 <section id="about" class="section">
+<h3>About Header</h3>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
 <br/>
 <br/>
 <br/>
 </section>
 
 <section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
+  <h3>My Photos Header</h3>
+  <div class="row">
+    <div class="column">
+      <img src="DNPU6551.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="IMG_3076.jpg"  style="width:100%">
+    </div>
+    <div class="column">
+      <img src="img1.jpg"  style="width:100%">
+    </div>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="img2.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="IMG_2651.jpg"  style="width:100%">
+    </div>
+  </div>
 </section>
 
 <section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
+  <h3>My studing playlist</h3>
+  <iframe class="youtube"  width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=RDYkkKUARRpeU&start_radio=1&t=1" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe>
 </section>
 
 <section id="like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
+  <h3>give me a like</h3>
+  <a id="like_button"href="https://www.facebook.com/OrAlfasi">
+    <img src="like3.png" style="width:100px;height:42px;border:0" align="middle">
+  </a>
 </section>
 
 <section id="qrcoder" class="section">
+<h3>QR code Header</h3>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
 <br/>
 <br/>
 <br/>
 </section>
 
-<section id="spa" class="section">
+<section id="q&a" class="section">
+  <h3>Q&A code Header</h3>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
 <br/>
 <br/>
 <br/>
 </section>
 
 <section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
+  <h3>Send Me an E-mail</h3>
+  <div align="center">
+    <form action="mailto:oralfasi09@gmail.com" method="post" enctype="text/plain">
+      Name:<br>
+      <input type="text" name="name"><br>
+      Comment:<br>
+      <input type="text" name="comment" size="50"><br><br>
+      <input type="submit" value="Send">
+      <input type="reset" value="Reset">
+      </form>
+  </div>
+  <br/>
+  <br>
+  <br/>
 </section>
 
 
