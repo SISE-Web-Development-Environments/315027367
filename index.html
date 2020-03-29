@@ -5,7 +5,7 @@
 </head>
 <body>
   <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
   <header>
     <div id="menu">
   <img class="logo" src="logo2.png">
@@ -66,9 +66,8 @@
 
 <section id="like" class="section">
   <h3>give me a like</h3>
-  <a id="like_button"href="https://www.facebook.com/OrAlfasi">
-    <img src="like3.png" style="width:150px;height:70px;border:0" align="middle">
-  </a>
+  <br>
+  <div class="fb-like" data-href="https://sise-web-development-environments.github.io/315027367/" data-width="" data-layout="standard" data-action="like" data-size="large" data-share="true"></div>
 </section>
 
 <section id="qrcoder" class="section">
@@ -103,13 +102,29 @@
   <h3>Send Me an E-mail</h3>
   <div  id="form_email" align="center">
     <form action="mailto:oralfasi09@gmail.com" method="post" enctype="text/plain">
-      Name:<br>
-      <input type="text" name="name"><br>
+      Your E-mail:<br>
+      <input type="text" name="email"><br>
       Comment:<br>
-      <input type="text" name="comment" size="50"><br><br>
-      <input type="submit" value="Send">
+      <input type="text" name="comment" size="50"><br>
+      Add an Emoji:
+        <select id="emoji" name="emoji">
+        <option>&#128153</option>
+        <option>&#128154</option>
+        <option>&#128400</option>
+        <option>&#128512</option>
+        <option>&#128520</option>
+        <option>&#128527</option>
+        <option>&#128568</option>
+        <option>&#128576</option>
+        <option>&#129299</option>
+        <option>&#129315</option>
+       </select>
+       <br>
+       <br>
+       <input type="submit" value="Send">
       <input type="reset" value="Reset">
       </form>
+
   </div>
   <br/>
   <br>
