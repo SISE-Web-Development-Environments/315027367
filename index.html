@@ -1,149 +1,165 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
+
 <body>
   <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
+  <script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
   <header>
     <div id="menu">
-  <img class="logo" src="logo2.png">
-  <nav>
-    <ul>
-      <li><a href="#about">About Me</a></li>
-      <li><a href="#photos">My Photos</a></li>
-      <li><a href="#playlist">My Playlist</a></li>
-      <li><a href="#like">Like</a></li>
-      <li><a href="#qrcoder">QR code</a></li>
-      <li><a href="#q&a">Q&A</a></li>
-      <li><a href="#contact">Contact Me</a></li>
-    </ul>
-  </nav>
-  
+      <img class="logo" src="logo2.png">
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#photos">My Photos</a></li>
+          <li><a href="#playlist">My Playlist</a></li>
+          <li><a href="#like">Like</a></li>
+          <li><a href="#qrcoder">QR code</a></li>
+          <li><a href="#q&a">Q&A</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
 
-</div>
+
+    </div>
   </header>
 
-		  
-<section id="about" class="section">
-<h3>About Me</h3>
-<div id="about_me">
-  My name is Or Alfasi. I'm a third year student in the Information Systems Engineering department.
-  I enjoy the practical assigments, and I'm interested in big data and data analysis.
-  In my spare time, I love doing yoga and cooking.
 
-</div>
-</section>
+  <section id="about" class="section">
+    <h3>About Me</h3>
+    <div id="about_me">
+      My name is Or Alfasi. I'm a third year student in the Information Systems Engineering department.
+      I enjoy the practical assigments, and I'm interested in big data and data analysis.
+      In my spare time, I love doing yoga and cooking.
 
-<section id="photos" class="section">
-  <h3>My Photos</h3>
-  <div class="row">
-    <div class="column">
-      <img src="img3.JPG" style="width:100%">
     </div>
-    <div class="column">
-      <img src="img5.JPG"  style="width:100%">
+  </section>
+
+  <section id="photos" class="section">
+    <h3>My Photos</h3>
+    <div class="row">
+      <div class="column">
+        <img src="img3.JPG" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="img5.JPG" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="img1.jpg" style="width:100%">
+      </div>
     </div>
-    <div class="column">
-      <img src="img1.jpg"  style="width:100%">
+    <div class="row">
+      <div class="column">
+        <img src="img2.jpg" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="img4.JPG" style="width:100%">
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="column">
-      <img src="img2.jpg" style="width:100%">
+  </section>
+
+  <section id="playlist" class="section">
+    <h3>My studing playlist</h3>
+    <iframe class="youtube" width="560" height="315"
+      src="https://www.youtube.com/embed/videoseries?list=RDYkkKUARRpeU&start_radio=1&t=1" frameborder="0"
+      allow="autoplay; encrypted-media;" allowfullscreen></iframe>
+  </section>
+
+  <section id="like" class="section">
+    <h3>give me a like</h3>
+    <br>
+    <div class="fb-like" data-href="https://sise-web-development-environments.github.io/315027367/" data-width=""
+      data-layout="standard" data-action="like" data-size="large" data-share="true"></div>
+  </section>
+
+  <section id="qrcoder" class="section">
+    <h3>QR code</h3>
+    <img src="QRcode.png" class="QR">
+  </section>
+
+  <section id="q&a" class="section">
+    <h3>Q&A</h3>
+    <div class="question">
+      <h4>פרט שלושה הבדלים עיקריים בין web1,web2 web3</h4>
+      <ol type="1">
+        <li>כמות המשתמשים : ב-web1 היו כמיליון משתמשים. לאחר מכן בweb2 היו הביליון ובweb3 המספר הגיע לטריליון משתמשים.
+        </li>
+        <li>הפרסום: ב-web1 חברות פרסמו תוכן שאנשים צורכים. ב-web2 אנשים מפרסים תוכן שאנשים אחרים יכולים לצרוך. ואילו
+          ב-web3 בונים אפליקציות שלאנשים תהיה אינטרקציה איתן</li>
+        <li> מערכות תוכן: ב-web1 השתמשו פותחו מערכות תוכן ניהוליות. ב-web2 השתמשו בויקיפדיה ואתרים דומים ואילו בweb3 יש
+          שימוש בwikis סמנטיים.</li>
+      </ol>
     </div>
-    <div class="column">
-      <img src="img4.JPG"  style="width:100%">
+    <br>
+    <div class="question">
+      <h4>דוגמא באמצעות USE CASE:</h4>
+      אדם מעוניין לפרסם את העסק שלו באינטרנט
+      <br>
+      ב-web1: פרסום באמצעות אתרי תוכן
+      <br>
+      ב-web2 הפרסום יהיה באמצעות אנשים, למשל סרטון בyoutube או בלוגרים
+      <br>
+      ב-web3 הפרסום יהיה באמצעות הקשר בין אנשים, למשל בפייסבוק
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="playlist" class="section">
-  <h3>My studing playlist</h3>
-  <iframe class="youtube"  width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=RDYkkKUARRpeU&start_radio=1&t=1" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe>
-</section>
-
-<section id="like" class="section">
-  <h3>give me a like</h3>
-  <br>
-  <div class="fb-like" data-href="https://sise-web-development-environments.github.io/315027367/" data-width="" data-layout="standard" data-action="like" data-size="large" data-share="true"></div>
-</section>
-
-<section id="qrcoder" class="section">
-<h3>QR code</h3>
-<img src="QRcode.png" class="QR">
-</section>
-
-<section id="q&a" class="section">
-  <h3>Q&A</h3>
-<div class="question">
-  <h4>פרט שלושה הבדלים עיקריים בין web1,web2 web3</h4>
-  <ol type="1">
-    <li>כמות המשתמשים : ב-web1 היו כמיליון משתמשים. לאחר מכן בweb2 היו הביליון ובweb3 המספר הגיע לטריליון משתמשים.</li>
-    <li>הפרסום: ב-web1 חברות פרסמו תוכן שאנשים צורכים. ב-web2 אנשים מפרסים תוכן שאנשים אחרים יכולים לצרוך. ואילו ב-web3 בונים אפליקציות שלאנשים תהיה אינטרקציה איתן</li>
-    <li>  מערכות תוכן: ב-web1 השתמשו פותחו מערכות תוכן ניהוליות. ב-web2 השתמשו בויקיפדיה ואתרים דומים ואילו בweb3 יש שימוש בwikis סמנטיים.</li>
-  </ol>
-</div>
-<br>
-<div class="question">
-  <h4>דוגמא באמצעות USE CASE:</h4>
-  אדם מעוניין לפרסם את העסק שלו באינטרנט
-  <br>
-  ב-web1: פרסום באמצעות אתרי תוכן
-  <br>
-  ב-web2 הפרסום יהיה באמצעות אנשים, למשל סרטון בyoutube או בלוגרים
-  <br>
-  ב-web3 הפרסום יהיה באמצעות הקשר בין אנשים, למשל בפייסבוק
-</div>
-</section>
-
-<section id="contact" class="section">
-  <h3>Send Me an E-mail</h3>
-  <div  id="form_email" align="center">
-    <form action="mailto:oralfasi09@gmail.com" method="post" enctype="text/plain">
-      Your E-mail:<br>
-      <input type="text" name="email"><br>
-      Comment:<br>
-      <input type="text" name="comment" size="50"><br>
-      Add an Emoji:
+  <section id="contact" class="section">
+    <h3>Send Me an E-mail</h3>
+    <div id="form_email" align="center">
+      <form action="mailto:oralfasi09@gmail.com" method="get" enctype="text/plain">
+        Subject:<br>
+        <input type="text" name="Subject"><br>
+        Comment:<br>
+        <input id="body_text" type="text" name="body" size="50"><br>
+        Add an Emoji:
         <select id="emoji" name="emoji">
-        <option>&#128153</option>
-        <option>&#128154</option>
-        <option>&#128400</option>
-        <option>&#128512</option>
-        <option>&#128520</option>
-        <option>&#128527</option>
-        <option>&#128568</option>
-        <option>&#128576</option>
-        <option>&#129299</option>
-        <option>&#129315</option>
-       </select>
-       <br>
-       <br>
-       <input type="submit" value="Send">
-      <input type="reset" value="Reset">
+          <option value="&#128153">&#128153</option>
+          <option value="&#128154">&#128154</option>
+          <option value="&#128400">&#128400</option>
+          <option value="&#128520">&#128520</option>
+          <option value="&#128527">&#128527</option>
+          <option value="&#128568">&#128568</option>
+          <option value="&#128576">&#128576</option>
+          <option value="&#129299">&#129299</option>
+          <option value="&#129315">&#129315</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="Send" onclick="add()">
+        <script type="text/javascript">
+        function add(){
+          let e = document.getElementById("emoji");
+          let selection = e.options[e.selectedIndex].value;
+          document.getElementById("body_text").value +=selection;
+        }
+        </script>
+        <input type="reset" value="Reset">
       </form>
 
-  </div>
-  <br/>
-  <br>
-  <br/>
-</section>
+    </div>
+    <br />
+    <br>
+    <br />
+  </section>
 
 
-<script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
-  });
-});
-</script>
-<script type="text/javascript">
- $(document).scroll(function() {
-    $('#menu').toggle($(this).scrollTop()>1000)
- });​
- </script>
+  <script type="text/javascript">
+    $(function () {
+      $("#nav a").click(function (e) {
+        e.preventDefault();
+        $('html,body').scrollTo(this.hash, this.hash);
+      });
+    });
+  </script>
+  <script type="text/javascript">
+    $(document).scroll(function () {
+      $('#menu').toggle($(this).scrollTop() > 1000)
+    });​
+  </script>
 </body>
+
 </html>
