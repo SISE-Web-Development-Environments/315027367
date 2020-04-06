@@ -32,7 +32,7 @@
   <section id="about" class="section">
     <h3>קצת על עצמי</h3>
     <div id="about_me">
-  שמעון דקל........
+      שמעון דקל........
 
     </div>
   </section>
@@ -40,52 +40,55 @@
   <section id="photos" class="section">
     <h3>התמונות שלי</h3>
     <h4>המשפחה שלי</h4>
-    <div class="row">
-      <div class="column">
-        <img src="family.jpeg" style="width:100% ">
+    <div class="pic_section">
+      <div class="row">
+        <div class="column">
+          <img class="pic"src="family.jpeg" style="width:100% ">
+        </div>
+        <div class="column">
+          <img  class="pic" src="family2.jpeg" style="width:100%">
+        </div>
       </div>
-      <div class="column">
-        <img src="family2.jpeg" style="width:100%">
+      <div class="row">
+        <div class="column">
+          <img  class="pic"src="family4.jpeg" style="width:100%">
+        </div>
+        <div class="column">
+          <img class="pic" src="family3.jpeg" style="width:100%">
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="column">
-        <img src="family4.jpeg" style="width:100%">
-      </div>
-      <div class="column">
-        <img src="family3.jpeg" style="width:100%">
-      </div>
-    </div>
+
     <h4>הציורים שלי</h4>
     <div class="row">
       <div class="column">
-        <img src="painting2.jpeg" style="width:100%" height="300px">
+        <img class="pic" src="painting2.jpeg" style="width:100%" height="300px">
       </div>
       <div class="column">
-        <img src="painting1.jpeg" style="width:100%" height="400px">
+        <img  class="pic" src="painting1.jpeg" style="width:100%" height="400px">
       </div>
       <div class="column">
-        <img src="painting3.jpeg" style="width:100%" height="300px">
+        <img  class="pic" src="painting3.jpeg" style="width:100%" height="300px">
       </div>
     </div>
     <div class="row">
       <div class="two_column">
-        <img src="painting4.jpeg" style="width:100%" height="300px" width="300px">
+        <img  class="pic" src="painting4.jpeg" style="width:100%" height="300px" width="300px">
       </div>
       <div class="two_column">
-        <img src="painting5.jpeg" style="width:100%" height="400px">
+        <img  class="pic" src="painting5.jpeg" style="width:100%" height="400px">
       </div>
     </div>
     <h4> משחק טניס שולחן</h4>
     <div class="row">
       <div class="two_column">
-      <img src="pingpong.jpeg" style="width:100%" height="300px" width="200px"> 
+        <img class="pic" src="pingpong.jpeg" style="width:100%" height="300px" width="200px">
+      </div>
+      <div class="two_column">
+        <img  class="pic" src="pingpong2.jpeg" style="width:100%" height="300px" width="300px">
+      </div>
     </div>
-    <div class="two_column">
-      <img src="pingpong2.jpeg" style="width:100%" height="300px" width="300px">
-    </div>
-    </div>
-    
+
   </section>
 
   <section id="playlist" class="section">
@@ -98,9 +101,12 @@
   <section id="like" class="section">
     <h3>give me a like</h3>
     <br>
-    <div class="fb-like" data-href="https://sise-web-development-environments.github.io/315027367/" data-width=""
-      data-layout="standard" data-action="like" data-size="large" data-share="true"></div>
-  
+    <div class="facebook">
+      <div class="fb-like" data-href="https://sise-web-development-environments.github.io/315027367/" data-width=""
+        data-layout="standard" data-action="like" data-size="large" data-share="true">
+      </div>
+    </div>
+
   </section>
 
   <section id="qrcoder" class="section">
@@ -159,11 +165,11 @@
         <br>
         <input type="submit" value="Send" onclick="add()">
         <script type="text/javascript">
-        function add(){
-          let e = document.getElementById("emoji");
-          let selection = e.options[e.selectedIndex].value;
-          document.getElementById("body_text").value +=selection;
-        }
+          function add() {
+            let e = document.getElementById("emoji");
+            let selection = e.options[e.selectedIndex].value;
+            document.getElementById("body_text").value += selection;
+          }
         </script>
         <input type="reset" value="Reset">
       </form>
